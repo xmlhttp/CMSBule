@@ -1,0 +1,47 @@
+@import url(static.css);
+body{ min-width:1000px}
+.topw{ height:53px; background:url(../images/ManagerPage/top_bg.gif) top center repeat-x; overflow:hidden}
+.topn{ height:53px; background:url(../images/ManagerPage/topl_bg.jpg) left top no-repeat;}
+.top_r1{ height:43px; float:right; width:200px; background:url(../images/ManagerPage/topr_bg.jpg) center center no-repeat; padding-left:7px; padding-top:10px}
+.top_r2{ float:right; padding-top:11px; padding-bottom:11px; width:300px;}
+.top_r2 li{ float:left; width:90px; padding-right:2px; background:url(../images/ManagerPage/top_line.gif) right center no-repeat; height:32px; line-height:32px;}
+.top_r2 li.last{ background:none}
+.top_r2 li a{ color:#fff; font-size:13px; }
+.top_r2 li a:hover,.top_r2 li a.a_active{ color:#e1fc00}
+#vers a{ margin-left:10px; margin-right:10px}
+.logo{ float:left}
+.top_r1 a{ float:left}
+.top_r1 a.uname{ padding-right:15px; background:url(../images/ManagerPage/ico_down.gif) right center no-repeat; padding-left:5px; margin-top:5px; color:#b6becc; font-size:12px; width:50px; height:20px; overflow:hidden; text-align:center}
+.top_r1 a.uset{ margin-left:30px; margin-top:8px;}.top_r1 a.uloginout{margin-left:20px; margin-top:8px;}
+/*顶部结束*/
+.info{ width:100%; position:relative;}
+.info_right{ margin-left:17%; overflow-y:auto; overflow-x:hidden}
+.info_left{ position:absolute; left:0; top:0; height:100%; width:17%; background:#edf0f8; border-right:#bfd1dd solid 1px; overflow:hidden}
+.left_nav a{ display:block; height:32px; background:url(../images/ManagerPage/nav/leftnav1_bg.gif) top left repeat-x; padding-left:20px; line-height:32px; text-align:left; color:#576a90; font-size:14px;}
+.left_nav .left_sub{ overflow-y:auto; }
+.left_nav .left_sub .left_sub1{padding-top:5px; padding-bottom:5px;}
+.left_nav .left_sub .left_sub1 a{ background:none; height:28px; line-height:28px;}
+.left_nav .left_sub .left_sub1 a:hover,.left_nav .left_sub .left_sub1 a.a_hover{ background:#90c31f;}
+.left_nav .left_sub .left_sub1 a span{ padding:2px 0 2px 25px; background-image:url(../images/ManagerPage/nav/leftnavbg.png);_background-image:url(../images/ManagerPage/nav/leftnavbg.gif); background-repeat:no-repeat; font-size:13px;}
+.left_nav .left_sub .left_sub1 a:hover span,.left_nav .left_sub .left_sub1 a.a_hover span{ color:#fff;}
+/*中间结束*/
+.foot{ height:29px; border-top:1px solid #C1D1DC; background:url(../images/ManagerPage/foot/foot_navbg.gif) top center repeat-x; text-align:right; padding-right:10px; color:#999;font-family: Comic Sans MS; font-size:12px; line-height:29px;}
+.maskbg{ position:absolute; left:0; top:0; width:100%; height:100%; z-index:99; background:#000; opacity:0.3;filter:alpha(opacity:30); display:none;}
+.mapview{ width:800px; height:600px; border:#6a82a9 solid 2px; position:absolute; left:50%; top:50%; margin-left:-402px; margin-top:-302px; background:#fff; display:none; z-index:100}
+.mapinfo{width:800px; height:600px;}
+.mapclose{ position:absolute; width:40px; height:40px; font-size:30px; line-height:35px; color:#fff; right:-2px; top:-2px; z-index:1; background:#6a82a9;}
+.mapcenter{ width:41px; height:41px; position:absolute; z-index:1; top:50%; left:50%; margin-left:-21px; margin-top:-21px; background:url(../images/ManagerPage/mapcenter.png) center center no-repeat;}
+.btn1{ width:120px; height:40px; border:0; background:#6a82a9; position:absolute; top:-2px; right:40px; font-size:14px; color:#fff; line-height:38px}
+.popewm{ position:absolute; z-index:100; background:#fff; left:50%; top:50%; width:296px; height:296px; margin-left:-149px; margin-top:-149px; border:#CCC solid 1px}
+.popewm1{width:296px; height:296px;}
+.popclose{ position:absolute; right:3px; top:0px; font-size:18px; color:#000}
+
+/*地图弹框*/
+.topbar{line-height:29px; height:29px; background:url(../images/tab_titbg.gif) left center repeat-x; text-align:left; padding-left:15px; font-size:14px; color:#74829d;border-bottom:#c1d1dc solid 1px}
+.landview{ width:700px; height:500px; position:fixed; top:50%; left:50%; border:3px #c1d1dc solid; margin-left:-353px; margin-top:-253px; z-index:110; background:#fff}
+.popclost{ float:right; width:30px; height:30px; line-height:26px; background:#7b99c5; font-size:22px; text-align:center; color:#fff; font-weight:bold}
+.popsubmit{ float:right; width:80px; height:30px; line-height:28px; background:#7b99c5; margin-right:5px; text-align:center; border-radius:5px;color:#fff}
+.btn{ width:80px; height:30px; border:0; line-height:29px;  background:#7b99c5; color:#fff;font-family:"微软雅黑";-moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px;}
+.input1{ padding:5px; width:120px; height:18px; line-height:18px; border:#dcdcdc solid 1px; color:#4b4b4b;-moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px; font-size:14px; font-family:"微软雅黑";}
+.cmoneyview{width:500px; height:300px;margin-left:-253px; margin-top:-173px;}
+.popctab tr td{ padding-top:6px; padding-bottom:6px}
